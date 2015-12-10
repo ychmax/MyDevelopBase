@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="sample_internet_server">
+        <property name="context-root" value="/sample_internet_server"/>
+    </wb-module>
+</project-modules>

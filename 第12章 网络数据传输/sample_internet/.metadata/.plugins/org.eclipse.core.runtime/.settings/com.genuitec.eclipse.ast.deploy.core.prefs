@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+tomcat7Server.sample_internet_server.IEARProjectName=
+tomcat7Server.sample_internet_server.altContextRoot=
+tomcat7Server.sample_internet_server.contextRoot=/sample_internet_server
+tomcat7Server.sample_internet_server.deployIsOverProject=false
+tomcat7Server.sample_internet_server.deploymentPath=D\:\\apache-tomcat-7.0.59\\webapps\\sample_internet_server
+tomcat7Server.sample_internet_server.isDeployed=true
+tomcat7Server.sample_internet_server.isExploded=true
+tomcat7Server.sample_internet_server.isUptoDate=true
+tomcat7Server.sample_internet_server.noFileCopy=false
+tomcat7Server.sample_internet_server.shouldBackup=false
+tomcat7Server.sample_internet_server.shouldOverwrite=false
+tomcat7Server.sample_internet_server.type=WebDeployment

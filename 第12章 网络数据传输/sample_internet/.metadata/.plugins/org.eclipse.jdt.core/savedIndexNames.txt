@@ -1,0 +1,14 @@
+INDEX VERSION 1.126+E:\AndroidBook\第12章 网络数据传输\sample_internet\.metadata\.plugins\org.eclipse.jdt.core
+1393293931.index
+2859024129.index
+876426960.index
+978672775.index
+789349890.index
+227575659.index
+4031317429.index
+429931856.index
+13831415.index
+685919727.index
+4279948093.index
+2630056902.index
+1529976391.index

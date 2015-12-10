@@ -1,0 +1,53 @@
+package cn.edu.zstu;
+
+import java.io.IOException;
+import java.io.Writer;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class sample_internet_servlet extends HttpServlet {
+
+	final String text="{"+
+"    \"name\": \"Alice\","+
+"    \"books\": ["+
+"        {"+
+"            \"bookname\": \"Android development\","+
+"            \"describe\": \"Android development book\","+
+"            \"imageurl\": \"http://pic4.nipic.com/20091112/3650425_212418707915_2.jpg\""+
+"        },"+
+"        {"+
+"            \"bookname\": \"IOS development\","+
+"            \"describe\": \"IOS development book\","+
+"            \"imageurl\": \"http://imgsrc.baidu.com/forum/pic/item/b64543a98226cffce98283f1b9014a90f703eacd.jpg\""+
+"        },"+
+"        {"+
+"            \"bookname\": \"Web development\","+
+"            \"describe\": \"WEb development book\","+
+"            \"imageurl\": \"http://www.qqpk.cn/Article/UploadFiles/201407/20140711101445200.jpg\""+
+"        }"+
+"    ]"+
+"}"£»
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		String name=(String) req.getAttribute("name");
+		
+		if(name=="Alice"){
+			Writer out= resp.getWriter();
+			out.write(")
+		}
+		//super.doGet(req, resp);
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		super.doPost(req, resp);
+	}
+	
+
+}
